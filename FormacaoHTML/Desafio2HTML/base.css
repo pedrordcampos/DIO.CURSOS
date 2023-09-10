@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 20px 20px 0px;
+}
+
+#consulta {
+    width: 80%;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+    transition: color 0.3s; /* Transição de cor ao passar o mouse */
+}
+
+a:hover {
+    color: #007BFF; /* Cor do texto ao passar o mouse */
+}
+
+.header {
+    background-color: rgb(80, 216, 216);
+    min-height: 150px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#background-primary {
+    width: 100%;
+    height: auto;
+}
+
+#background-secondary{
+    width: 65%;
+    position: relative;
+}
+
+.right-image {
+    float: right;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu container */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 5px; /* Adiciona um espaço entre a imagem e o conteúdo à esquerda */
+}
+
+#whatsapp {
+    width: 3%;   
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+#dentista {
+    width: 90%;   
+   
+}
+
+#dente {
+    width: 100%;
+}
+
+#sobrenos {
+    width: 100%;
+}
+
+.primary-content {
+    position: relative;   
+    width: 100%;
+    height: auto; 
+}
+
+.text-content {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente o texto */
+    left: 45%; /* Centraliza horizontalmente o texto */
+    transform: translate(-45%, -50%); /* Ajusta a posição do texto */
+    width: 80%; /* Define a largura do texto conforme necessário */
+    text-align: justify; /* Alinha o texto no centro da imagem */
+    color: black; /* Define a cor do texto para garantir a legibilidade */
+}
+
+.text-content2 {
+    position: absolute;
+    top: 55%; /* Centraliza verticalmente o texto */
+    left: 45%; /* Centraliza horizontalmente o texto */
+    transform: translate(-45%, -50%); /* Ajusta a posição do texto */
+    width: 80%; /* Define a largura do texto conforme necessário */
+    text-align: justify; /* Alinha o texto no centro da imagem */
+    color: white; /* Define a cor do texto para garantir a legibilidade */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao redor do texto */
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semi-transparente ao texto */
+    padding: 2px; /* Adiciona algum espaço interno ao redor do texto */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+}
+
+table {
+    margin: auto; /* Isso centraliza a tabela */
+    text-align: center;
+    width: 100%;
+}
+
+table thead th{
+    background-color: darkgrey;
+    color: whitesmoke;
+ }
+ table tbody tr:nth-child(odd) td{
+     background-color: gray;
+ }
+ table tbody tr:hover td {
+     background-color: #e9e9e9;
+     cursor: pointer;
+ }
+
+.button-container {
+    text-align: center; /* Alinha o conteúdo no centro */
+    margin-top: 50px; /* Adiciona um espaço entre o topo da página e o botão (ajuste conforme necessário) */
+}
+
+.my-button {
+    padding: 15px 20px; /* Define o tamanho do botão */
+    font-size: 20px; /* Define o tamanho da fonte do botão */
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+.footer {
+    background-color:  rgb(80, 216, 216);
+    min-height: 150px;
+    text-align: center;
+    top: 50%; /* Centraliza verticalmente o texto */
+    left: 50%; /* Centraliza horizontalmente o texto */
+}
+
+.row {
+    margin: 5px;
+}
+
+label {
+    width: 300px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
