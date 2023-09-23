@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+}
+
+.quadrado1 {
+    margin: 5px;
+    border: 5px solid black;
+    background-color: darkcyan;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado2 {
+    margin: 5px;
+    border: 5px solid black;
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+}
+
+.quadrado3 {
+    margin: 5px;
+    border: 5px solid black;
+    background-color: darkolivegreen;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 150px;
+    color: white;
+    text-align: center;
+}
